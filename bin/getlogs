@@ -1,0 +1,4 @@
+#!/bin/bash
+
+mkdir -p logs
+aws s3 sync s3://cointractor.io/logs/ logs/
